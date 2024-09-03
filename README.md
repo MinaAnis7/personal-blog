@@ -8,8 +8,15 @@ If you want to see it in action, please visit the following link: [Live Demo](ht
 The Website has a lot of sections:
 - Header and Landing Page:
   - Header: Contains all the navigation links and mega menu that when hovering over the "Other Links" Link, it opens up on top of the content of the page.
-  - Landing Page: An into to the webpage with nice little animations.
+  - Landing Page: An intro to the webpage with nice little animations.
   <img src="gifs/1.gif" />
+
+- Articles Section:
+  Contains all the articles typed by the author with a brief introduction of each article. Also, it has:
+  - Heading with animation when it gets hovered.
+  - Some smooth transitions and animations for each article.
+  <img src="gifs/2.gif" />
+  
 
 ## Languages and Libraries Used
 - HTML
