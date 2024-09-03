@@ -67,7 +67,7 @@ if you want to experience it in action, please visit the following link: [Live D
   <img src="gifs/13.gif" />
 
 - Discount Section
-  <img src="gifs/14.png" />
+  <img src="gifs/14.gif" />
 
 - Footer
   <img src="gifs/15.png" />
