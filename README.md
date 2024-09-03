@@ -2,10 +2,9 @@
 A website template for a personal blog. This project showcases a beautifully designed and highly animated blog template with smooth transitions and engaging animations. The website features a clean and **responsive layout**, ensuring an excellent browsing experience on all devices.
 
 ## Live Demo
-If you want to see it in action, please visit the following link: [Live Demo](https://minaanis7.github.io/personal-blog/)
+if you want to experience it in action, please visit the following link: [Live Demo](https://minaanis7.github.io/personal-blog/)
 
 ## Features
-The Website has a lot of sections:
 - Header and Landing Page:
   - Header: Contains all the navigation links and mega menu that when hovering over the "Other Links" Link, it opens up on top of the content of the page.
   - Landing Page: An intro to the webpage with nice little animations.
@@ -16,6 +15,52 @@ The Website has a lot of sections:
   - Heading with animation when it gets hovered.
   - Some smooth transitions and animations for each article.
   <img src="gifs/2.gif" />
+
+- Gallery Section:
+  It Gathers all The Images you want to show on your website.
+  Highlights:
+  - Spikes Separator
+  - Flashing Animation
+  <img src="gifs/3.gif" />
+
+- Features Section:
+  Highlights
+  - Appealing Transition.
+  <img src="gifs/4.gif" />
+
+- Testimonials Section
+  <img src="gifs/5.png" />
+
+- Team Members Section
+  Highlights:
+  - Filter Transition
+  - Fill Transition
+  <img src="gifs/6.gif" />
+
+- Services Section
+  Highlights:
+  - Fill Transition
+  - Spikes Separator
+  <img src="gifs/7.gif" />
+
+- Our Skills Section
+  <img src="gifs/8.png" />
+
+- How It Works Section
+  <img src="gifs/9.gif" />
+
+- Latest Events
+  <img src="gifs/10.png" />
+
+- Pricing Plans
+  Highlights:
+  - doted background
+  - Fill Transition with different directions
+  - Most Popular Mark for the Most Popular Plan
+  <img src="gifs/11.gif" />
+
+- Top Videos Section
+  <img src="gifs/12.gif" />
   
 
 ## Languages and Libraries Used
