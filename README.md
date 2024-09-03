@@ -50,18 +50,27 @@ if you want to experience it in action, please visit the following link: [Live D
   <img src="gifs/9.gif" />
 
 - Latest Events
-  <img src="gifs/10.png" />
+  <img src="gifs/11.png" />
+
 
 - Pricing Plans
   Highlights:
   - doted background
   - Fill Transition with different directions
   - Most Popular Mark for the Most Popular Plan
-  <img src="gifs/11.gif" />
+  <img src="gifs/10.gif" />
 
 - Top Videos Section
-  <img src="gifs/12.gif" />
+  <img src="gifs/12.png" />
   
+- Statistics Section
+  <img src="gifs/13.gif" />
+
+- Discount Section
+  <img src="gifs/14.png" />
+
+- Footer
+  <img src="gifs/15.png" />
 
 ## Languages and Libraries Used
 - HTML
