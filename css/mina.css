@@ -1103,6 +1103,7 @@ header .nav li:last-of-type:hover .menu-container {
 .our-skills .progress-bar .bar {
   height: 100%;
   background-color: var(--primary-color);
+  transition: 0.7s width;
 }
 
 .our-skills .box {

@@ -3,6 +3,9 @@ let hours = document.querySelector(".events .hours");
 let minutes = document.querySelector(".events .minutes");
 let seconds = document.querySelector(".events .seconds");
 
+let skillsSection = document.querySelector("section.our-skills");
+let skillBars = document.querySelectorAll("section.our-skills .progress-bar .bar");
+
 let countDown = setInterval(() => {
     let EOY = new Date("2024-12-31T23:59:59").getTime();
     let dateDiff = EOY - Date.now();
@@ -19,3 +22,13 @@ let countDown = setInterval(() => {
     if (dateDiff < 0) clearInterval(countDown);
 
 }, 1000);
+
+
+window.onscroll = function () {
+    if (scrollY >= skillsSection.offsetTop) {
+
+        skillBars.forEach(function (bar) {
+            bar.style.width = bar.dataset.width;
+        });
+    }
+}
