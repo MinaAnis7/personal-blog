@@ -1,0 +1,21 @@
+let days = document.querySelector(".events .days");
+let hours = document.querySelector(".events .hours");
+let minutes = document.querySelector(".events .minutes");
+let seconds = document.querySelector(".events .seconds");
+
+let countDown = setInterval(() => {
+    let EOY = new Date("2024-12-31T23:59:59").getTime();
+    let dateDiff = EOY - Date.now();
+    let d = `${Math.floor(dateDiff / (1000 * 60 * 60 * 24))}`;
+    let h = `${Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))}`;
+    let m = `${Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60))}`;
+    let s = `${Math.floor((dateDiff % (1000 * 60)) / 1000)}`;
+
+    days.innerText = d.length < 2 ? `0${d}` : d;
+    hours.innerText = h.length < 2 ? `0${h}` : h;
+    minutes.innerText = m.length < 2 ? `0${m}` : m;
+    seconds.innerText = s.length < 2 ? `0${s}` : s;
+
+    if (dateDiff < 0) clearInterval(countDown);
+
+}, 1000);

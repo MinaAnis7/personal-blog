@@ -1247,6 +1247,7 @@ header .nav li:last-of-type:hover .menu-container {
 .events .calendar .box {
   border: 1px solid #d4d4d4;
   border-radius: 6px;
+  width: 80px;
   transition: border-color var(--primary-transition);
 }
 .events .calendar .box span {
