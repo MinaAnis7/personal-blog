@@ -6,6 +6,11 @@ let seconds = document.querySelector(".events .seconds");
 let skillsSection = document.querySelector("section.our-skills");
 let skillBars = document.querySelectorAll("section.our-skills .progress-bar .bar");
 
+let statsSection = document.querySelector(".statistics");
+let statsNumbers = document.querySelectorAll("span[data-target]");
+let animationStarted = false;
+
+
 let countDown = setInterval(() => {
     let EOY = new Date("2024-12-31T23:59:59").getTime();
     let dateDiff = EOY - Date.now();
@@ -31,4 +36,17 @@ window.onscroll = function () {
             bar.style.width = bar.dataset.width;
         });
     }
+
+    if (scrollY >= statsSection.offsetTop - 100 && !animationStarted) {
+        statsNumbers.forEach((num) => statsAnnimation(num));
+        animationStarted = true;
+    }
+}
+
+function statsAnnimation(num) {
+    let animation = setInterval(function () {
+        num.textContent++;
+
+        if (num.textContent == num.dataset.target) clearInterval(animation);
+    }, 1000 / num.dataset.target);
 }
