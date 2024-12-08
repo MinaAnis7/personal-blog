@@ -73,7 +73,8 @@ if you want to experience it in action, please visit the following link: [Live D
   <img src="gifs/15.gif" />
 
 ## Languages and Libraries Used
-- HTML
-- CSS
+- HTML5
+- CSS3
+- Javascript
 - Font Awesome Free v6.6.0
 - Normailze.css v8.0.1
