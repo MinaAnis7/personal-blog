@@ -12,7 +12,7 @@ let animationStarted = false;
 
 
 let countDown = setInterval(() => {
-    let EOY = new Date("2024-12-31T23:59:59").getTime();
+    let EOY = new Date("2026-12-31T23:59:59").getTime();
     let dateDiff = EOY - Date.now();
     let d = `${Math.floor(dateDiff / (1000 * 60 * 60 * 24))}`;
     let h = `${Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))}`;
